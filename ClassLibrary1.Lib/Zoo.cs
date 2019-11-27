@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Lib
 {
-    class Zoo
+    public class Zoo
     {
         public decimal EntranceFee { get; set; } = 50.0M;
 
@@ -13,6 +13,8 @@ namespace Zoo.Lib
             EntranceFee = entrancefee;
 
         }
+
+
 
     }
 }
