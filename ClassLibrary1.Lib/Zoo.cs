@@ -7,11 +7,13 @@ namespace Zoo.Lib
     public class Zoo
     {
         public decimal EntranceFee { get; set; } = 50.0M;
-        public LionCage lionCage { get; set; }
+        public LionCage LionCage { get; set; }
 
         public Zoo (decimal entrancefee)
         {
             EntranceFee = entrancefee;
+            LionCage = new LionCage();
+
 
         }
 
